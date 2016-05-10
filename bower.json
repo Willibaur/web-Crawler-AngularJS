@@ -1,0 +1,18 @@
+{
+  "name": "web-Crawler-Javascript",
+  "homepage": "https://github.com/Willibaur/web-Crawler-Javascript",
+  "authors": [
+    "William Bautista <williambautista@gmail.com>"
+  ],
+  "description": "Basic Web Crawler App",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
