@@ -1,0 +1,46 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Basic Web Crawler written in AngularJS",
+  "main": "Gruntfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bower": "^1.7.7",
+    "http-server": "^0.8.5",
+    "sd": "^0.0.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-jasmine": "^1.0.0",
+    "grunt-contrib-jshint": "^0.12.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "install": "^0.4.1",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.13.19",
+    "karma-chrome-launcher": "^0.2.2",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "karma-verbose-reporter": "0.0.3",
+    "phantomjs": "^1.9.19",
+    "protractor": "^3.0.0",
+    "protractor-console": "^2.0.0"
+  },
+  "scripts": {
+    "test": "karma start test/karma.conf.js",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Willibaur/web-Crawler-AngularJS.git"
+  },
+  "author": "William Bautista",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Willibaur/web-Crawler-AngularJS/issues"
+  },
+  "homepage": "https://github.com/Willibaur/web-Crawler-AngularJS#readme"
+}
