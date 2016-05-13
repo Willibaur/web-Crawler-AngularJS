@@ -1,5 +1,6 @@
-[![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)  [![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)
+[![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)  
 
+[![Coverage Status](https://coveralls.io/repos/github/Willibaur/web-Crawler-AngularJS/badge.svg?branch=master)](https://coveralls.io/github/Willibaur/web-Crawler-AngularJS?branch=master)
 =================
 
 Web Crawler JavaScript
