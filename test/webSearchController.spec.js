@@ -1,4 +1,4 @@
-describe('WebCrawlerController', function () {
+describe('WebSearchController', function () {
   beforeEach(module('WebSearch'));
 
   var ctrl;
@@ -7,7 +7,7 @@ describe('WebCrawlerController', function () {
   	ctrl = $controller('WebSearchController');
   }));
 
-  describe('when searching for a user', function() {
+  describe('when searching within URL', function() {
     var urls = [
       "https://gocardles.com",
       "https://gocardless.com/features/",

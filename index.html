@@ -12,7 +12,7 @@
     <script src="bower_components/angular-resource/angular-resource.js"></script>
 
     <script src="js/app.js"></script>
-    <script src="js/webCrawlerController.js"></script>
+    <script src="js/webSearchController.js"></script>
   </head>
 
   <body ng-controller="WebSearchController as webCtrl">
@@ -23,8 +23,8 @@
       </form>
 
       <ul class="list-group">
-        <li class="list-group-item">
-          <a href="http://gocardless.com">http://gocardless.com</a>
+        <li ng-repeat="link in webCtrl.searchResult.urls">
+          <a>{{link}}</a>
         </li>
       </ul>
     </div>
