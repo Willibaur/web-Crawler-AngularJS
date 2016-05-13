@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)
+[![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)  [![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)
 
 =================
 
