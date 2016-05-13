@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Willibaur/web-Crawler-AngularJS.svg?branch=master)](https://travis-ci.org/Willibaur/web-Crawler-AngularJS)
 
 =================
 
@@ -8,7 +9,7 @@ Task
 -----
 
 Given a URL the app should output a site map, showing the static assets for each
-page. 
+page.
 
 Here are the user stories used.
 
