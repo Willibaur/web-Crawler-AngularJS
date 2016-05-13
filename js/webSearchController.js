@@ -1,0 +1,3 @@
+webCrawlerSearch.controller('WebSearchController', [function() {
+
+}]);

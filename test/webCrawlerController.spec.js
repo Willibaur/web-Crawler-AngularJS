@@ -1,10 +1,10 @@
 describe('WebCrawlerController', function () {
-  beforeEach(module('WebCrawler'));
+  beforeEach(module('WebSearch'));
 
   var ctrl;
 
   beforeEach(inject (function($controller) {
-  	ctrl = $controller('WebCrawler');
+  	ctrl = $controller('WebSearchController');
   }));
 
   it('initialises with an empty search result and term', function() {

@@ -1,1 +1,1 @@
-var webCrawler = angular.module('WebCrawler', ['ngResource']);
+var webCrawlerSearch = angular.module('WebSearch', ['ngResource']);
