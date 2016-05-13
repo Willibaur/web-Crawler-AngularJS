@@ -1,10 +1,10 @@
 
-script:
-  - npm test --single-run
-  - node_modules/.bin/protractor test/e2e/conf.js --browser=firefox
+sudo: false
+
 language: node_js
 node_js:
   - "5.5.0"
+
 before_script:
   - npm -g install npm@latest
   - bower install
@@ -14,5 +14,9 @@ before_script:
   - webdriver-manager start > /dev/null &
   - npm start > /dev/null &
   - sleep 3
-script: make test-coveralls
-sudo: false
+
+script:
+  - npm test --single-run
+  # - node_modules/.bin/protractor test/e2e/conf.js --browser=firefox
+
+script: npm run coveralls
