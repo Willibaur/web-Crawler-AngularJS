@@ -7,8 +7,17 @@ describe('WebCrawlerController', function () {
   	ctrl = $controller('WebSearchController');
   }));
 
-  it('initialises with an empty search result and term', function() {
-    expect(ctrl.searchResult).toBeUndefined();
-    expect(ctrl.searchTerm).toBeUndefined();
+  describe('when searching for a user', function() {
+    var urls = [
+      "https://gocardles.com",
+      "https://gocardless.com/features/",
+      "https://gocardless.com/pricing/",
+      "https://developer.gocardless.com/"
+    ];
+
+
+    it('displays search results', function() {
+      expect(ctrl.searchResult.urls).toEqual(urls);
+    });
   });
 });
