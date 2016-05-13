@@ -32,7 +32,7 @@
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",
-    "start": "http-server"
+    "start": "http-server",
     "coveralls": "cat ./output/coverage/*/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
   "repository": {
