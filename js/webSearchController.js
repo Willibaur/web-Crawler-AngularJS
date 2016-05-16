@@ -1,13 +1,12 @@
-webCrawlerSearch.controller('WebSearchController', [function() {
+webCrawlerSearch.controller('WebSearchController',
+    [ function() {
 
   var self = this;
 
-  self.searchResult = {
-    "urls":  [
-      "https://gocardles.com",
-      "https://gocardless.com/features/",
-      "https://gocardless.com/pricing/",
-      "https://developer.gocardless.com/"
-    ]
+  self.doSearch = function () {
+
+    var pageToVisit = self.searchTerm;
+
+    self.searchResult = {};
   };
 }]);

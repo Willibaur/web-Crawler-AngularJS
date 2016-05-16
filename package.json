@@ -12,6 +12,7 @@
     "sd": "^0.0.3"
   },
   "devDependencies": {
+    "cheerio": "^0.20.0",
     "coveralls": "^2.11.9",
     "grunt": "^0.4.5",
     "grunt-contrib-jasmine": "^1.0.0",
@@ -28,7 +29,9 @@
     "karma-verbose-reporter": "0.0.3",
     "phantomjs": "^1.9.19",
     "protractor": "^3.0.0",
-    "protractor-console": "^2.0.0"
+    "protractor-console": "^2.0.0",
+    "request": "^2.72.0",
+    "url-parse": "^1.1.1"
   },
   "scripts": {
     "test": "karma start test/karma.conf.js",

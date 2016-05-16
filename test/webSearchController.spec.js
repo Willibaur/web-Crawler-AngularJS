@@ -16,7 +16,9 @@ describe('WebSearchController', function () {
     ];
 
 
-    it('displays search results', function() {
+    xit('displays search results', function() {
+      ctrl.searchURL = 'hello';
+      ctrl.doSearch();
       expect(ctrl.searchResult.urls).toEqual(urls);
     });
   });
