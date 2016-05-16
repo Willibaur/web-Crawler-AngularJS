@@ -8,7 +8,7 @@ webCrawlerSearch.controller('WebSearchController',
   self.doSearch = function() {
     SearchURL.query(self.searchTerm)
       .success(function(response) {
-        self.state = response.status;
+        self.state = response.data;
         console.log(self.state);
       });
     // self.searchResult = response.data;
