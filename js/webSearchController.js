@@ -1,12 +1,16 @@
 webCrawlerSearch.controller('WebSearchController',
-    [ function() {
+    ['SearchURL', function(SearchURL) {
 
   var self = this;
+  self.searchTerm = undefined;
+  self.state =  undefined;
 
-  self.doSearch = function () {
-
-    var pageToVisit = self.searchTerm;
-
-    self.searchResult = {};
+  self.doSearch = function() {
+    SearchURL.query(self.searchTerm)
+      .success(function(response) {
+        self.state = response.status;
+        console.log(self.state);
+      });
+    // self.searchResult = response.data;
   };
 }]);
