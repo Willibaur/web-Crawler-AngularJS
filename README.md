@@ -23,7 +23,7 @@ So I can see all statics assets for each page
 Technologies used
 -----------------
 
-* Continuois integration
+* Continuous integration
   * Travis CI
 
 * Testing
